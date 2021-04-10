@@ -7,7 +7,7 @@ It is designed to be fast, accurate, and reliable.
 
 Delphi port
 
-This is a port (major rework) from C to Delphi by Gabriel M.
+This is a port (major rework) from C to Delphi.
 It can be compiled directly and requires no additional libraries.
 The code should be compilable also on Lazarus/FPC.
 It also fixes two bugs.
