@@ -18,8 +18,13 @@ The original C code can he found in the IQA folder or can be downloaded from htt
 
 Copyright/Conditions
 
-1. You can use this library in free or commercial applications as long as you don't modify it.
+1. You can use this library in your applications as long as you don't modify it.
    If you modify/update/extend/change/improve this library you MUST share your modifications with the rest of the world.
-2. The only place where you can share the library/changes to the library is here, on GitHub.
+2. The only place where you can share the library/changes to the library, is here, on GitHub. 
+3. Keep this original copyright notice so people could know that the library is free.
+
+
+Have fun.
+Long live Pascal :)
 
 
