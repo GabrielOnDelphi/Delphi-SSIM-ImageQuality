@@ -20,7 +20,7 @@ Copyright/Conditions
 1. You can use this library in your applications as long as you don't modify it.
    If you modify/update/extend/change/improve this library you MUST share your modifications with the rest of the world.
 2. The only place where you can share the library/changes to the library, is here, on GitHub. 
-3. Keep this original copyright notice so people could know that the library is free.
+3. Keep this original copyright notice.
 
 
 Have fun.
