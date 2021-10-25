@@ -7,13 +7,12 @@ It is designed to be fast, accurate, and reliable.
 
 Delphi port
 
-This is a port (major rework) from C to Delphi.
-It can be compiled directly and requires no additional libraries.
-The code should be compilable also on Lazarus/FPC.
+This is a port (major rework) from C to Delphi. The original C code can be downloaded from http://tdistler.com/iqa
 It also fixes two bugs.
+
+It can be compiled directly and requires no additional libraries. The code should be compilable also on Lazarus/FPC.
 I also translated some unit tests.
-I HAVEN'T IMPLEMENTED _iqa_img_filter!
-The original C code can be downloaded from http://tdistler.com/iqa
+I HAVEN'T translated also _iqa_img_filter!
 
 
 Copyright/Conditions
