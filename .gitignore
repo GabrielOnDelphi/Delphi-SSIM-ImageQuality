@@ -5,3 +5,5 @@ C code/C code.rar
 /__history/
 *.local
 *.dsk
+*.~dsk
+*.identcache
