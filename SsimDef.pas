@@ -18,7 +18,7 @@ UNIT SsimDef;
 
 INTERFACE
 USES
-    Winapi.Windows, System.SysUtils, Vcl.Graphics;
+    System.SysUtils, Vcl.Graphics;
 
 CONST
    GAUSSIAN_LEN = 11;
