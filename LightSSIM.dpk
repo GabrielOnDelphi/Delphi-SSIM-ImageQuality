@@ -1,4 +1,4 @@
-package LightSaber_SSIM;
+package LightSSIM;
 
 
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
