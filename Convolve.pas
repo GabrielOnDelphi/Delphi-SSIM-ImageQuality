@@ -1,7 +1,12 @@
 UNIT Convolve;
 
-{-------------------------------------------------------------------------------------------------------------
-  2019-08-17
+{=============================================================================================================
+   Gabriel Moraru
+   2024.05
+
+   This is a port (but contains also major reworks) from C to Delphi.
+   The original C code can be downloaded from http://tdistler.com/iqa
+--------------------------------------------------------------------------------------------------------------
   UnitTested: ok
 -------------------------------------------------------------------------------------------------------------}
 
@@ -118,7 +123,7 @@ VAR
    dst: RealImage;
 begin
   if Length(k.KernelW)= 0                          //todo 5: make it an Assert
-  then raise Exception.Create('KernelW is empty!');
+  then RAISE Exception.Create('KernelW is empty!');
 
   uc:= k.Width  DIV 2;
   vc:= k.Height DIV 2;

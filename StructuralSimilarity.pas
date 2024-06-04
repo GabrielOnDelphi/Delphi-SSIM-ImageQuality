@@ -1,9 +1,14 @@
 UNIT StructuralSimilarity;
 
-{-------------------------------------------------------------------------------------------------------------
+{=============================================================================================================
+   Gabriel Moraru
+   2024.05
+
+   This is a port (but contains also major reworks) from C to Delphi.
+   The original C code can be downloaded from http://tdistler.com/iqa
+--------------------------------------------------------------------------------------------------------------
   Calculates the structural similarity between 2 images.
   MAIN FILE
-  2019-08-16
 --------------------------------------------------------------------------------------------------------------
 
   Note: The images must be equal as size and gray scale.
@@ -70,7 +75,7 @@ VAR
 begin
   // For MS-SSIM
   if (C1 = 0) and (mu1 = 0) and (mu2 = 0)
-  then exit(1);
+  then EXIT(1);
 
   Rez := (2 * mu1 * mu2 + C1) / (mu1 * mu1 + mu2 * mu2 + C1);
   if alpha = 1 then Exit(rez);

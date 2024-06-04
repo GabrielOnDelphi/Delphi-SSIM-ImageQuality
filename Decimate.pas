@@ -1,8 +1,13 @@
 UNIT Decimate;
 
-{-------------------------------------------------------------------------------------------------------------
+{=============================================================================================================
+   Gabriel Moraru
+   2024.05
+
+   This is a port (but contains also major reworks) from C to Delphi.
+   The original C code can be downloaded from http://tdistler.com/iqa
+--------------------------------------------------------------------------------------------------------------
   Downsamples (decimates) an image.
-  2019-08-17
 
   Params:
      img        Image to modify

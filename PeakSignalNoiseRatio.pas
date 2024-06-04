@@ -1,9 +1,15 @@
 UNIT PeakSignalNoiseRatio;
 
-{-------------------------------------------------------------------------------------------------------------
+{=============================================================================================================
+   Gabriel Moraru
+   2024.05
+
+   This is a port (but contains also major reworks) from C to Delphi.
+   The original C code can be downloaded from http://tdistler.com/iqa
+--------------------------------------------------------------------------------------------------------------
    Peak Signal-to-Noise Ratio
-   UNUSED
-   2019-08-16
+   (UNUSED)
+
    Calculates the Peak Signal-to-Noise-Ratio between 2 equal-sized 8-bit images.
 
    Params:

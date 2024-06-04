@@ -1,8 +1,13 @@
 UNIT MeanSquaredError;
 
-{-------------------------------------------------------------------------------------------------------------
+{=============================================================================================================
+   Gabriel Moraru
+   2024.05
+
+   This is a port (but contains also major reworks) from C to Delphi.
+   The original C code can be downloaded from http://tdistler.com/iqa
+--------------------------------------------------------------------------------------------------------------
    Mean Squared Error
-   2019-08-16
 
    Calculates the Mean Squared Error between 2 equal-sized 8-bit images.
    note The images must have the same width, height, and stride.
@@ -37,12 +42,12 @@ function mse(ReferenceImg, CompareImg: ByteImage; ImgWidth, ImgHeigth, stride: i
 var
    error: Single;
    offset: integer;
-   sum: UInt64;
+   sum: Int64;
    ww: integer;
    hh: integer;
 begin
   sum:= 0;
-  Assert(Length(ReferenceImg) = Length(CompareImg), 'The images must have the same width, height, and stride.');
+  Assert(Length(ReferenceImg) = Length(CompareImg), 'The images must have the same width, height, and stride!');
   for hh:= 0 to ImgHeigth-1 do
    begin
     offset:= hh*stride; 
