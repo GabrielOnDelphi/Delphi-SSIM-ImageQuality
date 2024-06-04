@@ -1,3 +1,11 @@
+Delphi Structural similarity index measure (SSIM)
+
+Home:
+ www.gabrielmoraru.com/my-delphi-code/ssim-image-quality-assessment-delphi-library/
+
+
+
+
 Description
 
 A library for objectively measuring image/video quality.
@@ -25,5 +33,6 @@ The copyright conditions are quite relaxed. See Copyright.txt
 
 Have fun.
 Long live Pascal :)
+
 
 
