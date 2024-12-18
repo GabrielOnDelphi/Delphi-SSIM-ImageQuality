@@ -40,7 +40,7 @@
         <DCC_Alignment>2</DCC_Alignment>
         <DllSuffix>$(Auto)</DllSuffix>
         <RuntimeOnlyPackage>true</RuntimeOnlyPackage>
-        <VerInfo_Keys>CompanyName=cubicdesign;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=Gabriel Moraru;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
