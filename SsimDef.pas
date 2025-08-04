@@ -180,7 +180,7 @@ end;
 function GetStride(BMP: TBitmap): integer;
 VAR BytesPerPix: Integer;
 begin
-  //BytesPerPix := cGraphLoader.Resolution.GetBitsPerPixel(BMP);   // bits per pix
+  //BytesPerPix := LightVcl.Graph.Loader.Resolution.GetBitsPerPixel(BMP);   // bits per pix
   //BytesPerPix := BytesPerPix DIV 8;                              // bytes per pix
   BytesPerPix := 1; // because I aways use gray!
   Result:= BMP.Width * BytesPerPix;
