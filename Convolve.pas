@@ -2,7 +2,7 @@ UNIT Convolve;
 
 {=============================================================================================================
    Gabriel Moraru
-   2024.05
+   2026.04.24
 
    This is a port (but contains also major reworks) from C to Delphi.
    The original C code can be downloaded from http://tdistler.com/iqa
@@ -159,7 +159,7 @@ begin
         for u := -uc to uc-kw_even do
          begin
            if ImgOffset + u < 0                                        //todo 5: make it an Assert
-           then Exception.Create('Invalid ImgOffset!');
+           then raise Exception.Create('Invalid ImgOffset!');          // BUG FIX: was missing 'raise' - created orphan exception
 
            if KernOffset >= Length(k.KernelW)                          //todo 5: make it an Assert
            then raise Exception.Create('Invalid KernOffset!');
@@ -236,7 +236,7 @@ begin
       Assert(KernOffset <= Length(k.KernelW), 'k_offset not < Length(k.kernel)!');
 
       if ImgOffset + u < 0                                        //todo 4: convert it to Assertion to make it faster
-      then Exception.Create('Invalid ImgOffset!');
+      then raise Exception.Create('Invalid ImgOffset!');          // BUG FIX: was missing 'raise' - created orphan exception
 
       if KernOffset >= Length(k.KernelW)                          //todo 4: convert it to Assertion to make it faster
       then raise Exception.Create('Invalid KernOffset!');

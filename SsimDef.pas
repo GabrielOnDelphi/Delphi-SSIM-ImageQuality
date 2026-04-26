@@ -2,7 +2,7 @@ UNIT SsimDef;
 
 {=============================================================================================================
    Gabriel Moraru
-   2024.05
+   2026.04.24
 
    This is a port (but contains also major reworks) from C to Delphi.
    The original C code can be downloaded from http://tdistler.com/iqa
@@ -190,7 +190,8 @@ end;
 procedure SetLengthAndZeroFill(VAR SomeArray: RealImage; Size: Integer);
 begin
   SetLength(SomeArray, Size);
-  FillChar(SomeArray[0], SizeOf(SomeArray), 0);
+  if Size > 0
+  then FillChar(SomeArray[0], Size * SizeOf(Single), 0);   // BUG FIX: was SizeOf(SomeArray) which is only pointer size (4/8 bytes), not the buffer
 end;
 
 

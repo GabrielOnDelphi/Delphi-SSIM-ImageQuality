@@ -2,7 +2,7 @@ UNIT MeanSquaredError;
 
 {=============================================================================================================
    Gabriel Moraru
-   2024.05
+   2026.04.24
 
    This is a port (but contains also major reworks) from C to Delphi.
    The original C code can be downloaded from http://tdistler.com/iqa
